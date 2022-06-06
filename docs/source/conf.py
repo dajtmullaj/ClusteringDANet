@@ -23,10 +23,10 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
-import encoding
-import autorch_sphinx_theme
+#import encoding
+#import autorch_sphinx_theme
 import glob
-import shutil
+#import shutil
 from custom_directives import IncludeDirective, GalleryItemDirective, CustomGalleryItemDirective
 
 
@@ -81,7 +81,7 @@ author = 'Hang Zhang'
 # built documents.
 #
 # The short X.Y version.
-version = 'master (' + encoding.__version__ + ')'
+#version = 'master (' + encoding.__version__ + ')'
 # The full version, including alpha/beta/rc tags.
 # TODO: verify this works as expected
 release = 'master'
@@ -111,8 +111,8 @@ todo_include_todos = True
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'autorch_sphinx_theme'
-html_theme_path = [autorch_sphinx_theme.get_html_theme_path()]
+#html_theme = 'autorch_sphinx_theme'
+#html_theme_path = [autorch_sphinx_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the

@@ -3,7 +3,7 @@ from docutils.statemachine import StringList
 from docutils import nodes
 import re
 import os
-import sphinx_gallery
+#import sphinx_gallery
 
 try:
     FileNotFoundError
